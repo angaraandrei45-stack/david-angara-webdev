@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact / Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">David's Website</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="ethics.html">Ethics & Attribution</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="card">
+      <h1>Contact / Feedback</h1>
+      <p>Use the form below to demonstrate a simple contact interface.</p>
+
+      <form onsubmit="return false;">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send Feedback</button>
+      </form>
+
+      <p class="small">
+        Note: This educational form does not transmit or store your information.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 David Andrei N Angara. Educational project.</p>
+  </footer>
+</body>
+</html>
